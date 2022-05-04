@@ -33,7 +33,7 @@ function alert(msg = "", withoutN = false) { // function for writing messages, w
     fs.writeSync(process.stdout.fd, msg.toString()); // writing
 }
 
-function prompt(msg = "") {
+function prompt(msg = "") { // function for reading text
     alert(msg, true); // writing message
     return readLine(); // reading line
 }
