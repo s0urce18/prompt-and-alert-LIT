@@ -1,3 +1,7 @@
+// ******************************************
+// Увесь цей фрагмент тексту ставимо
+// на початок програмного js-файлу
+// ******************************************
 const fs = require('fs'); // connecting module fs
 const fd = (process.platform === 'win32') ? process.stdin.fd : fs.openSync('/dev/tty', 'rs'); //consfigurating for your OS
 const StringDecoder = require('string_decoder').StringDecoder; // connecting class StringDecoder from module string_decoder
@@ -29,3 +33,7 @@ function prompt(msg = "") {
     alert(msg, true); // writing message
     return readLine(); // reading line
 }
+// ******************************************
+// vpackage
+// (c) 2021-09-24 alkhizha, s0urce18
+// ******************************************
