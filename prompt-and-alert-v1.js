@@ -26,5 +26,5 @@ function prompt(msg = ""){
     else return s.substring(0, s.indexOf("\x00"));}
 // ******************************************
 // v1
-// (c) 2021-09-24 alkhizha, s0urce18
+// (c) 2022-05-04 alkhizha, s0urce18
 // ******************************************
