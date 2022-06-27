@@ -39,5 +39,5 @@ function prompt(msg = "") { // function for reading text
 }
 // ******************************************
 // vpackage
-// (c) 2022-05-04 alkhizha, s0urce18
+// (c) 2022-05-04 alkhizha, s0urce
 // ******************************************
